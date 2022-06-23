@@ -197,7 +197,7 @@ body{
     width: 40%;
 }
 /* FOOTER */
-/* footer{
+footer{
     background-color: black;
     color: rgb(228, 215, 215);
     margin-top: auto;
@@ -246,8 +246,7 @@ input[type="submit"]:hover{
     cursor: pointer;
     color: tomato;
     background: #fff;
-} */
-
+}
 /* PIE DE PAGINA */
 .pie-pagina{
     width: 100%;
