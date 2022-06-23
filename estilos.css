@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.horror{
+    background-image:linear-gradient(rgba(248, 0, 0, 0.603) 0%, rgba(249, 213, 35, 0.644) 100%),url("Img\ 1.jpg");
+    width: 100%;
+    height: 650px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+.textos-horror{
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textos-horror h1{
+    font-size: 90px;
+    margin-bottom: 80px;
+    color: rgba(255, 255, 255, 0.849);
+}
+.textos-horror p{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.849);
+}
+.textos-horror a{
+    display: inline-block;
+    text-decoration: none;
+    /* padding: 12px 15px; */
+    /* background: rgb(207, 53, 53); */
+    /* border-radius: 5px; */
+    font-size: 20px;
+    color: rgb(106, 35, 109);
+}
+.svg-horror{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* ESTILOS GENERALES */
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    padding: 0 0 80px 0;
+}
+
+.contenedor{
+    padding: 80px 0;
+}
+
+.titulo{
+    font-weight: 1,500;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.titulo.left{
+    text-align: left;
+}
+
+.titulo.right{
+    text-align: right;
+}
+
+.website{
+    display: flex;
+    justify-content: space-between;
+}
+
+.website img{
+    width: 48%;
+}
+
+.website .contenedor-textos-main{
+    width: 40%;
+}
+
+.parrafo{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.cta{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #00000069 0%, #f00e0ee3 99%, #ffffff 100%);
+    padding: 3px 12px;
+    border-radius: 8px;
+    color: antiquewhite;
+}
+
+.info{
+    background: linear-gradient(45deg, #b2b3abab 0%, #ff4800c2 99%, #a14545 100%);
+    color: white;
+}
+
+/* CARDS */
+
+.content-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    height: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .5);
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+
+.card:hover{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card h3{
+    margin: 20px 0 20px 0;
+    color: black;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.card p{
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+/* GALERIA */
+
+.galeria{   
+    background: #000000;
+}
+
+.galeria-cont{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.galeria-cont>img{
+    width: 19%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    display: block;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    overflow: hidden;    
+}
+
+.galeria h2{
+    color: antiquewhite;
+    margin-bottom: 70px;
+}
+
+.last-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.last-section img{
+    width: 48%;
+}
+
+.last-section .contenedor-textos-main{
+    width: 40%;
+}
+/* FOOTER */
+/* footer{
+    background-color: black;
+    color: rgb(228, 215, 215);
+    margin-top: auto;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input{
+    background: transparent;
+    border: 0;
+    color: white;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 10px 3px;
+}
+
+.input::placeholder{
+    color: #ffffff;
+    font-family: 'Rubik', 'sans-serif';
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.form textarea{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+input[type="submit"]{
+    width: 120px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    color: tomato;
+    background: #fff;
+} */
+
+/* PIE DE PAGINA */
+.pie-pagina{
+    width: 100%;
+    background-color: #000000;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(255, 255, 255);
+    margin-right: 12px;
+    background-color: #75737307;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: tomato;
+}
+.pie-pagina .grupo-2{
+    background-color: #000000;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+/* JUMBOTRON */
+
+.jumbotron{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.jumbotron .jumbotron-inner{
+    width: 56%;
+}
+.jumbotron .jumbotron-inner h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 13px
+}
+.jumbotron .jumbotron-inner p{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.jumbotron .jumbotron-inner .jumbotron-btn{
+    display: flex;
+    justify-content: center;
+}
+.jumbotron .jumbotron-inner .jumbotron-btn a{
+    display: flex;
+    justify-content: center;
+}
+.jumbotron .jumbotron-inner .jumbotron-btn .btn-one{
+    padding: 8px 14px;
+    border-radius: 5px;
+    background:  linear-gradient(45deg, #00000069 0%, #f00e0ee3 99%, #ffffff 100%);
+    color: #000000;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.jumbotron .jumbotron-inner .jumbotron-btn .btn-two{
+    padding: 8px 14px;
+    border-radius: 5px;
+    background:  linear-gradient(45deg, #f00e0ee3 0%, #00000069 99%, #ffffff 100%);
+    color: #000000;
+    margin-right: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:800px){
+    .textos-horror h1{
+        text-align: center;
+        font-size: 40px;
+    }
+/* ESTILOS GENERALES */
+    .titulo{
+        font-size: 30px;
+    }
+    .titulo.left{
+        text-align: center;
+    }
+    .info p{
+        text-align: center;
+    }
+/* SECTION WEBSITE */
+    .website{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .website img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .website .contenedor-textos-main{
+        width: 100%;
+    }
+    /* CARDS */
+    .card{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    /* GALERIA */
+    .galeria-cont{
+        width: 100%;
+    }
+    /* LAST */
+    .last-section img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .last-section .contenedor-textos-main{
+        width: 100%;
+    }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .titulo,
+    .textos-horror h1{
+        font-size: 30px;
+    }
+    .textos-horror p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .card{
+        height: 415px;
+    }
+    .website .contenedor-textos-main{
+        margin-bottom: 30px;
+    }
+    .galeria-cont img{
+        width: 32%;
+    }
+}
